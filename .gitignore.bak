@@ -1,0 +1,11 @@
+local .Terraform dir
+
+.Terraform/*
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+# TF Variable Files
+
+*.tfvars
